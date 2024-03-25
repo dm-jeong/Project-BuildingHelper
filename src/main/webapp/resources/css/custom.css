@@ -1,0 +1,47 @@
+@charset "UTF-8";
+:root,
+[data-bs-theme=light] {
+    --bs-custom-sky-blue: #8aaae5;
+    --bs-custom-light-white: #FEFEFE;
+}
+
+.custom-sky-blue {
+    color:#8aaae5;
+}
+
+.custom-white {
+    color:#FEFEFE;
+}
+
+.custom-bg-sky-blue {
+    background-color:#8aaae5;
+}
+
+.custom-bg-white {
+    background-color: #fefefe;
+}
+
+.border-light-blue {
+	border-color: #8AAAE5 !important;
+	
+}
+.box-shadow-light-gray {
+	box-shadow : 4px 8px 16px #d7d7d7;
+}
+
+
+/* 글 제목 길 경우 ... 처리  */
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.estate-trade-card-img{
+    width: 166px;
+    height: 148.19px;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
